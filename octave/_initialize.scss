@@ -23,3 +23,7 @@
 @include def-font(uppercase) {
     text-transform: uppercase;
 }
+
+@include def-font(underline) {
+    text-decoration: underline;
+}
