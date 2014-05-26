@@ -31,6 +31,18 @@
     text-decoration: underline;
 }
 
+@include def-font(center) {
+    text-align: center;
+}
+
+@include def-font(left) {
+    text-align: left;
+}
+
+@include def-font(right) {
+    text-align: right;
+}
+
 // Breakpoints
 // ===========
 
